@@ -3,7 +3,9 @@ A simple To-Do List application built with Python and customTkinter. It allows y
 Features:
 
 Add and remove tasks
+
 Save tasks to a file
+
 Load tasks from a file
 
 Requirements:
