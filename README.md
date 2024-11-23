@@ -9,8 +9,11 @@ Save tasks to a file
 Load tasks from a file
 
 Requirements:
+
 Python 3.x
+
 customTkinter
 
 Install customTkinter via pip:
+
 pip install customTkinter
