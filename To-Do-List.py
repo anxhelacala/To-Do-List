@@ -3,10 +3,10 @@ from tkinter import *
 import customtkinter 
 
 root = customtkinter.CTk()
-root.title("To-Do-List") #Title 
-root.geometry("750x500")  #Geometry
+root.title("To-Do-List")  
+root.geometry("750x500")  
  
-root.resizable(False, False)  #Resizing Horizontally or Vertically
+root.resizable(False, False)  
 root.config(bg='#9F2B68')
 
 def add_task():
@@ -68,9 +68,9 @@ add_button = customtkinter.CTkButton(
     font=font2,
     text='Add Task',
     text_color='#F2D2BD',
-    fg_color='#E37383',      # Button background color
-    hover_color='#C21E56',   # Hover color for the button
-    corner_radius=25,        # Half of the height (50/2)
+    fg_color='#E37383',      
+    hover_color='#C21E56',   
+    corner_radius=25,        
     bg_color='#9F2B68',
     width=200,
     height=50                
@@ -83,12 +83,12 @@ remove_button = customtkinter.CTkButton(
     font=font2,
     text='Remove Task',
     text_color='#F2D2BD',
-    fg_color='#E37383',      # Button background color
-    hover_color='#C21E56',   # Hover color for the button
-    corner_radius=25,        # Half of the height (50/2)
+    fg_color='#E37383',      
+    hover_color='#C21E56',   
+    corner_radius=25,        
     bg_color='#9F2B68',
     width=200,
-    height=50                # Adjust height to match your needs
+    height=50                
 )
 remove_button.place(x=500, y=150)
 
@@ -113,11 +113,6 @@ tasks_list=Listbox(
 
 )
 tasks_list.place(x=25,y=300)
-
-
-              
+    
 load_tasks()
-
-
-
 root.mainloop()
